@@ -1,0 +1,360 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+  display:flex;
+  text-align: center;
+  margin:auto;
+  padding:10px;
+  background-color:#34495e;
+}
+
+.logo{
+  float:left;
+  margin-left: 30px;
+
+}
+.logo > h1{
+  color: #fccc04;
+  font-weight:bolder;
+  margin-left: 100px;
+  flex:1;
+}
+.logo > .back{
+  background-color:#ecf0f1;
+}
+.nav{
+  float: left;
+
+  flex:3;
+}
+.nav >ul{
+  margin-right: 0px;
+}
+.nav > ul li{
+  font-size: 20px;
+  display:inline-block;
+  margin-right: 50px;
+  margin-top:10px;
+  color: #ffffff;
+  font-weight: bold;
+
+}
+.nav > ul li:hover{
+  border-bottom: 5px solid #fccc04;
+}
+.silde{
+    margin-top: 1px;
+  height:400px;
+  width:100%;
+ color:white;
+  box-shadow: 0px 1px #888888;
+  display:flex;
+  overflow: hidden;
+  text-align: center;
+  background-image: url("boy.jpg");
+  background-position: center;
+  background-size:100%;
+}
+.lefttext{
+  /*text-align:center;*/
+  float:left;
+  margin: auto;
+  align-items: center;
+  flex:2;
+}
+.lefttext > button{
+  background-color:#e67e22;
+  Color: #FFFFFF;
+  font-size: 20px;
+font-weight:bold;
+  border:none;
+  width:100px;
+  height:30px;
+  margin-top: 5px;
+}
+.lefttext > p{
+  margin:10px;
+  font-size: 30px;
+}
+ .rightimage{
+   margin: auto;
+   align-items: center;
+  float:right;
+  flex:2;
+}
+ .rightimage > img{
+   width: 400px;
+   height:600px;
+ }
+
+.aboutme{
+  height:400px;
+  width:100%;
+  display:flex;
+  text-align: center;
+
+}
+.aboutme > .abouttitle{
+  float:left;
+  flex:2;
+  /*width:50%;*/
+  /*height400px;*/
+  text-align: center;
+    background-image: url("abt.jpg");
+    background-size:100% ;
+    background-repeat:no-repeat;
+    background-position: inherit;
+}
+.abouttitle > h1{
+padding-top: 180px;
+    font-weight: bolder;
+    font-size: 48px;
+    color: #000000;
+    margin-left:1px;
+
+}
+ .abouttext{
+justify-content: center;
+   text-align: center;
+     align-items:center;
+  text-justify: inter-word;
+  float:left;
+  flex:4;
+  margin: 50px 50px 0px 0px;
+  padding:10px;
+
+  width:200px;
+  /*height400px;*/
+}
+ .abouttext >p{
+     text-align: justify;
+ }
+ .viewwork {
+     border:none;
+     background-color:#d35400;
+     color:#ffffff;
+     margin:10px;
+     border-radius:5px;
+     width:100px;
+     height:40px;
+     font-weight: bold;
+ }
+.cv {
+    border:2px solid #d35400;
+    background-color:#ffffff;
+    color:#d35400;
+    margin:10px;
+    border-radius:5px;
+    width:100px;
+    height:40px;
+    font-weight: bold;
+}
+.services{
+    padding-top:50px;
+    height:800px;
+    width:100%;
+    text-align: center;
+    background-color: #ecf0f1;
+
+}
+.services > h1 {
+    font-size:48px;
+    font-weight:bolder;
+
+
+    /*border-bottom: 2px solid #d35400;*/
+
+}
+
+.services > p{
+    padding-top:10px;
+    margin-bottom:30px;
+}
+.ux , .webdes , .webdev , .mob{
+    margin: 10px;
+    height:200px;
+    width:40%;
+    border-radius:10px;
+    border:1px solid #d35400;
+    display:inline-block;
+    padding-bottom: 50px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.ux{
+    background-image: linear-gradient(to right, #2ecc71 , #27ae60);
+}
+.ux >img , .mob > img , .webdes > img , .webdev > img{
+    position: relative;
+    opacity:0.3;
+    height:250px;
+    width:100%;
+    overflow:hidden;
+    border-radius:10px;
+}
+.ux >img:hover , .mob > img:hover , .webdes > img:hover , .webdev > img:hover{
+
+    opacity:0.7;
+
+}
+
+
+.webdes {
+    background-image: linear-gradient(to right, #ff9ff3  , #f368e0);
+}
+.webdev {
+    background-image: linear-gradient(to right, #f1c40f , #f39c12);
+}
+.mob{
+    background-image: linear-gradient(to right, #3498db , #2980b9);
+}
+.ux > p, .mob > p , .webdes > p, .webdev > p{
+    position:absolute;
+    top:160px;
+    left:25%;
+    color:white;
+}
+.ux > h1, .mob > h1 , .webdes >h1, .webdev >h1{
+    color:white;
+    position:absolute;
+    top:120px;
+    left:35%;
+
+}
+.ico{
+    color:white;
+    position:absolute;
+    top:30px;
+    left:40%;
+    font-size:80px;
+
+}
+.work{
+
+    padding: 50px 70px;
+
+}
+.work > p , h1 {
+    text-align: center;
+}
+.work > p , .exp>p{
+    padding-top:10px;
+    line-height:40px;
+
+}
+.works{
+    display:flex;
+    flex-direction:row;
+}
+.col1{
+
+    flex: 2;
+    display:flex;
+    flex-direction:column;
+
+}
+.col1 > div>img{
+    width:450px;
+    height:580px;
+    margin:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col2, .col3{
+    flex: 1.5;
+    margin:0px;
+    display:flex;
+    flex-direction:column;
+
+}
+/*.col2 > div{*/
+/*    display:inline-block;*/
+
+/*}*/
+
+.col2> div>img , .col3 >div>img{
+    width:280px;
+    height:275px;
+    margin:5px 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.exp{
+    /*display:flex;*/
+    padding:50px;
+    height:500px;
+    background-color: #ecf0f1;
+}
+
+.exp > h1{
+    margin-bottom:10px;
+}
+
+.exp > p{
+    text-align:center;
+
+}
+.expcontent{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.expcontent > div{
+    height :300px;
+    width :400px;
+    text-align: center;
+    padding:20px 10px;
+    background-color:#ffffff;
+    border: 1px solid #888888;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.expcontent >div > p{
+    line-height:20px;
+    text-align:justify;
+
+
+}.expcontent >div > h1{
+   margin:40px 0px;
+
+
+}
+.expcontent > div> blockquote{
+
+    margin-bottom: 20px;
+}
+.project{
+    background-image: linear-gradient(to right,  #ffbe76, #f0932b);
+    color:#ffffff;
+    text-align:center;
+    justify-content:center;
+    height:300px;
+    padding-top: 10px;
+    position:relative;
+
+}
+.project > .img1 > img{
+    margin:0;
+    position: relative;
+    height:300px;
+
+}
+.project >.content{
+    position: absolute;
+    top: 120px;
+    left:40%;
+}
+.contact{
+    /*display:flex;*/
+    padding:100px;
+    text-align: center;
+    justify-content:center;
+    height:300px;
+    background-color: #ecf0f1;
+}
+.social-icons{
+  margin:20px;
+    padding:20px;
+    font-weight:bolder;
+    font-size:48px;
+}
